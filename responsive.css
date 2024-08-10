@@ -1,0 +1,774 @@
+@media screen and (max-width: 576px) {
+    .padding {
+      padding: 0 0px;
+    }
+    .container {
+      max-width: 100%;
+      margin: 0 auto;
+      background: linear-gradient(180deg, rgb(56, 56, 56), rgb(0, 0, 0) 100%);
+    }
+    .navbar {
+      padding: 10px 30px;
+      align-items: center;
+    }
+  
+    .navbar .nav-link .ul-link {
+      display: none;
+    }
+    .navbar .nav-link .toggle {
+      display: block;
+    }
+  
+    /* hero start */
+    #hero {
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 15px;
+    }
+  
+    .hero-content h1 {
+      font-size: 42px;
+      padding-right: 70px;
+    }
+    .hero-content h1 span {
+      font-family: "Playwrite";
+    }
+    .hero-content p {
+      padding-right: 130px;
+      margin-bottom: 35px;
+    }
+    .hero-content .btn {
+      display: flex;
+      gap: 0 10px;
+      align-items: center;
+      justify-content: center;
+    }
+    .hero-content .btn button {
+      padding: 15px 28px;
+      border-radius: 40px;
+      font-size: 18px;
+      color: white;
+      border: none;
+      font-weight: 600;
+    }
+  
+    .hero-content .btn .download {
+      background: transparent;
+      border: 2px solid rgb(204, 204, 204);
+      margin-left: 20px;
+      padding: 13px 26px;
+    }
+  
+    .hero-img img {
+      width: 100%;
+      height: 100%;
+    }
+    .hero-img .card1 {
+      height: 84px;
+      width: 170px;
+      bottom: 282px;
+      right: 237px;
+    }
+    .hero-img .card2 {
+      height: 75px;
+      width: 145px;
+      top: 491px;
+      right: 28px;
+    }
+  
+    .hero-img .card2 .card-r {
+      color: white;
+      margin-left: 0;
+    }
+    .hero-img .card1 .card-l {
+      color: white;
+      margin-right: -10px;
+    }
+    .hero-img .card1 .card-r h1 {
+      font-size: 25px;
+    }
+    .hero-img .card2 .card-r h1 {
+      font-size: 25px;
+    }
+    .hero-img .card1 .card-r p {
+      font-size: 14px;
+    }
+    .hero-img .card2 .card-r p {
+      font-size: 10px;
+    }
+    /* hero ends */
+  
+    /* habit starts */
+    #habit {
+      margin: 50px 0;
+    }
+    #habit h1 {
+      font-size: 44px;
+    }
+    #habit p {
+      padding: 0 60px;
+      line-height: 30px;
+    }
+  
+    .habbit-card {
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .habbit-card .card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 350px;
+      width: 250px;
+    }
+    .habbit-card .card h2 {
+      font-size: 22px;
+      margin: 19px 0 8px 0;
+    }
+    .habbit-card .card h3 {
+      font-size: 15px;
+      font-weight: 400;
+    }
+  
+    .habbit-card .card .card-img {
+      height: 200px;
+      width: 200px;
+    }
+    .habbit-card .card .card-img img {
+      height: 100%;
+      width: 100%;
+      border-radius: 50%;
+    }
+    /* habit ends */
+  
+    /* run section starts */
+    #run-section {
+      width: 90%;
+      height: 90%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+    #run-section .run-img {
+      width: 95%;
+      height: 95%;
+      padding: 0;
+      margin: 30px 0 0 0;
+    }
+    #run-section .run-img img {
+    }
+    .run-content {
+      padding-right: 0;
+    }
+  
+    .run-content h1 {
+      font-size: 37px;
+      padding-right: 70px;
+      font-weight: 800;
+      margin-bottom: 30px;
+    }
+  
+    .run-content p {
+      margin-bottom: 30px;
+  
+      line-height: 30px;
+    }
+  
+    .run-content button {
+      width: 100%;
+      padding: 16px 70px;
+      font-size: 18px;
+      border: none;
+      border-radius: 30px;
+    }
+    /* run section ends */
+    /* bmi calculator section start */
+    #bmi-calc {
+      margin: 40px 0;
+    }
+    #bmi-calc .title-bmi {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      padding: 0 23px;
+    }
+    #bmi-calc .title-bmi h1 {
+      font-size: 50px;
+      font-weight: 800;
+      margin-bottom: 30px;
+    }
+    #bmi-calc .title-bmi p {
+      color: #797979;
+      line-height: 26px;
+      margin-bottom: 40px;
+    }
+  
+    .bmi-content {
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      background-color: #252525;
+    }
+  
+    .bmi-content .bmi-table {
+      padding-right: 0;
+    }
+    .bmi-content .bmi-table h1 {
+      font-size: 30px;
+      font-weight: 800;
+      margin-bottom: 40px;
+    }
+  
+    .bmi-content .bmi-form {
+      padding-left: 0;
+      width: 90%;
+      margin: 40px auto;
+      margin-left: 22px;
+    }
+    .bmi-content .bmi-form h1 {
+      font-size: 30px;
+      font-weight: 800;
+      margin-bottom: 15px;
+    }
+    .bmi-content .bmi-form p {
+      line-height: 26px;
+      margin-bottom: 30px;
+    }
+    .bmi-content .bmi-form .f-div {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 7px 10px;
+      align-items: center;
+      justify-content: center;
+    }
+    .bmi-content .bmi-form .f-div input {
+      padding: 15px 10px;
+      background-color: #4b4b4b;
+      font-size: 15px;
+      border: none;
+      border-radius: 10px;
+      font-weight: 700;
+      width: 90%;
+    }
+    .bmi-content .bmi-form .f-div input::placeholder {
+      color: #949494;
+    }
+    .bmi-content .bmi-form .f-div select {
+      padding: 15px 10px;
+      background-color: #4b4b4b;
+      font-size: 15px;
+      border: none;
+      border-radius: 10px;
+      font-weight: 400;
+      color: #949494;
+      width: 90%;
+    }
+    .bmi-content .bmi-form #select {
+      padding: 15px 10px;
+      background-color: #4b4b4b;
+      font-size: 15px;
+      border: none;
+      border-radius: 10px;
+      font-weight: 400;
+      color: #949494;
+      margin-top: 14px;
+      width: 95%;
+    }
+  
+    .bmi-content .bmi-form button {
+      padding: 15px 70px;
+      margin-bottom: 30px;
+      margin-top: 35px;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+    }
+  
+    .bmi-table {
+      width: 100%;
+    }
+    .bmi-table table {
+      border-collapse: collapse;
+      color: rgb(173, 173, 173);
+      font-weight: 300;
+    }
+    .bmi-table table thead {
+      color: rgb(207, 207, 207);
+      text-align: left;
+    }
+    .bmi-table table td,
+    th {
+      border: 2px solid rgb(48, 48, 48);
+      padding: 15px 30px;
+    }
+  
+    .bmi-table table td {
+      font-size: 15px;
+    }
+    .bmi-form {
+      width: 100%;
+    }
+    /* bmi calculator section ends */
+  
+    /* team section starts */
+  #team{
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+  
+  #team h1{
+      font-size: 40px;
+      font-weight: 800;
+      margin-bottom: 20px;
+  }
+  #team p{
+  font-size: 15px;
+      padding: 0 30px;
+      line-height: 26px;
+      color: #8b8b8b;
+      margin-bottom: 70px;
+  
+  }
+  #team .team-picture{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      background-color: #2c2c2c;
+      gap: 20px;
+      padding: 20px;
+      border-radius: 30px;
+     
+  }
+  #team .team-picture .pic1{
+      position: relative;
+      height: 250px;
+  width: 300px;
+  border-radius: 30px;
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  }
+  
+  .team-picture .picture1{
+    
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.363) , rgba(0, 0, 0, 0.288)100%) , url("../images/trainer1.png");
+  }
+  
+  .team-picture .picture2{
+      background: linear-gradient(0deg,rgb(0,0,0,0.388) , rgba(0,0,0,0.288)100%) , url("../images/trainer2.png");
+  }
+  .team-picture .picture3{
+      background: linear-gradient(0deg,rgb(0,0,0,0.388) , rgba(0,0,0,0.288)100%) , url("../images/trainer3.png");
+  }
+  .team-picture .picture4{
+      background: linear-gradient(0deg,rgb(0,0,0,0.388) , rgba(0,0,0,0.288)100%) , url("../images/trainer4.png");
+  }
+  .team-picture .picture5{
+      background: linear-gradient(0deg,rgb(0,0,0,0.388) , rgba(0,0,0,0.288)100%) , url("../images/trainer5.png");
+  }
+  .team-picture .picture6{
+      background: linear-gradient(0deg,rgb(0,0,0,0.388) , rgba(0,0,0,0.288)100%) , url("../images/trainer6.png");
+  }
+  .team-picture .pic {
+      position: absolute;
+      top: 183px;
+      left: 18px;
+  }
+  
+  .pic h2{
+      font-size: 16px;
+      font-weight: 800;
+  }
+  /* team section ends */
+  
+  /* footer start */
+  .main-footer{
+      padding: 20px;
+      background: #252525;
+      display: grid;
+      grid-template-columns: repeat(1 , 1fr);
+      justify-content: center;
+      align-items: center;
+  }
+  .footer-1 h1{
+      font-size: 55px ;
+      font-weight: 800;
+      margin-bottom: 15px;
+  }
+  .footer-1 p{
+     font-size: 12px;
+     padding-right: 50px;
+     line-height: 26px;
+     margin-bottom: 34px;
+  }
+  .footer-2{
+     padding-left: 0;
+  }
+  .footer-3{
+     padding-left: 0;
+  }
+  .footer-3 h1{
+      font-size: 30px;
+      font-weight: 800;
+      margin-bottom: 36px;
+  }
+  .footer-2 h1{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 36px;
+  }
+  .f ul li{
+      list-style: none;
+      margin: 19px 0;
+      
+  }
+  .f ul li a {
+      text-decoration: none;
+      font-size: 18px;
+      color: rgb(138, 138, 138);
+  
+  }
+  
+  .footer-hr {
+      width: 100%;
+      height: 0.5px;
+      background-color: #252525;
+      padding: 0 ;
+  
+  }
+  
+  .footer-hr .hr{
+      width: 100%;
+      height: 100%;
+      background-color: #494949;
+  }
+  .f-last{
+      padding: 50px 0;
+      text-align: center;
+      letter-spacing: 2px;
+      background: #252525;
+  }
+  
+  /* footer ends */
+  }
+  
+  
+  
+  /* medium screen device starts */
+  @media screen and (min-width:576px) and (max-width:992px) {
+  /* common class start */
+  
+  
+  
+  .padding{
+      padding: 0 0;
+  }
+  
+  .margin{
+      margin: 0 0;
+  }
+  /* common class ends */
+  
+  .container{
+      max-width: 100%;
+  }
+  
+  /* header start */
+  .navbar{
+      padding: 40px;
+  }
+  
+  .navbar .nav-logo h1{
+      font-size: 32px;
+  }
+  /* header ends */
+  
+  /* hero start */
+  #hero{
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 100px;
+  }
+  .hero-content h1 {
+      padding-right: 100px;
+     
+  }
+  .hero-content h1 span{
+  font-family: "Playwrite";
+  }
+  .hero-content p{
+  padding-right: 116px;
+  margin-bottom: 35px;
+  }
+  .hero-content .btn button{
+  padding: 15px 48px;
+  border-radius: 40px;
+  font-size: 18px;
+  color: white;
+  border: none;
+  font-weight: 600;
+  }
+  
+  .hero-content .btn .download{
+      background: transparent;
+      border: 2px solid rgb(204, 204, 204);
+      margin-left: 20px;
+      padding: 13px 46px;
+  }
+  
+  .hero-img img{
+      width: 100%;
+      height: 100%;
+  }
+  .hero-img .card2 {
+    top: 682px;
+    right: 197px;
+  }
+  .hero-img .card1 {
+    bottom: 352px;
+    right: 568px;
+  }
+  /* hero ends */
+  
+  /* habit starts */
+  #habit{
+      padding: 0 100px;
+  }
+  #habit h1{
+      font-size: 54px;
+  }
+  .habbit-card {
+    width: 100%;
+      display: grid;
+     grid-template-columns: repeat(2 , 1fr);
+     justify-content: center;
+     align-items: center;
+  }
+  
+  .habbit-card .card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 350px;
+      width: 250px;
+      
+  }
+  .habbit-card .card h2{
+     font-size: 22px;
+     margin: 19px 0 8px 0;
+  }
+  .habbit-card .card h3{
+     font-size: 15px;
+     font-weight: 400;
+  }
+  
+  .habbit-card .card .card-img{
+  height: 200px;
+  width: 200px;
+  }
+  .habbit-card .card .card-img img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  }
+  /* habit ends */
+  
+  /* run section starts */
+  #run-section{
+      display: grid;
+     grid-template-columns: 60% 39%;
+      align-items: center;
+      justify-content: center;
+      background-color: #252525;
+      margin: 40px;
+      padding: 40px;
+      border-radius: 30px;
+  }
+  #run-section .run-img {
+  width: 270px;
+  height: 350px;
+  float: right;
+  }
+  .run-content{
+      padding-right: 70px;
+  }
+  
+  .run-content h1{
+     font-weight: 800;
+  }
+  
+  .run-content button{
+      padding: 16px 70px;
+      font-size: 18px;
+      border: none;
+      border-radius: 30px;
+  }
+  /* run section ends */
+  
+  /* team section starts */
+  #team{
+      padding: 40px;
+  }
+  
+  #team .team-picture .pic1{
+      position: relative;
+      height: 250px;
+  width: 250px;
+  border-radius: 30px;
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  }
+  
+  #team p{
+    font-size: 15px;
+        padding: 0 0;
+        line-height: 26px;
+        color: #8b8b8b;
+        margin-bottom: 70px;
+    
+    }
+  
+    .team-picture .pic {
+      position: absolute;
+      top: 188px;
+      left: 14px;
+  }
+  /* team section ends */
+  /* bmi calculator section start */
+  #bmi-calc{
+      margin-bottom: 40px;
+      
+  }
+  #bmi-calc .title-bmi{
+      display: grid;
+      justify-content: center;
+      align-items: center;
+  padding:0 40px;    
+  margin-bottom: 50px;
+  }
+  #bmi-calc .title-bmi h1{
+     font-size: 50px;
+     font-weight: 800;
+     margin-bottom: 30px;
+  }
+  #bmi-calc .title-bmi .p {
+    color: #797979;
+    line-height: 26px;
+    padding-right: 338px;
+  }
+  .bmi-content{
+      padding: 40px;
+      flex-direction: column;
+      justify-content: center;
+    
+  }
+  
+  .bmi-content .bmi-table {
+      padding-right: 0;
+      margin-bottom: 50px;
+  }
+  
+  
+  .bmi-content .bmi-form {
+      padding-left: 0;
+  }
+  .bmi-table{
+      width: 100%;
+      
+  }
+  .bmi-form{
+  width: 100%;
+  }
+  /* bmi calculator section ends */
+  /* footer start */
+  .main-footer{
+      padding: 60px 190px;
+      background: #252525;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .footer-1 h1{
+      font-size: 55px ;
+      font-weight: 800;
+      margin-bottom: 15px;
+  }
+  .footer-1 p{
+     font-size: 12px;
+     padding-right: 50px;
+     line-height: 26px;
+     margin-bottom: 34px;
+  }
+  .footer-2{
+     padding-left: 130px;
+  }
+  .footer-3{
+     padding-left: 140px;
+  }
+  .footer-3 h1{
+      font-size: 30px;
+      font-weight: 800;
+      margin-bottom: 36px;
+  }
+  .footer-2 h1{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 36px;
+  }
+  .f ul li{
+      list-style: none;
+      margin: 19px 0;
+      
+  }
+  .f ul li a {
+      text-decoration: none;
+      font-size: 18px;
+      color: rgb(138, 138, 138);
+  
+  }
+  
+  .footer-hr {
+      width: 100%;
+      height: 0.5px;
+      background-color: #252525;
+      padding: 0 190px;
+  
+  }
+  
+  .footer-hr .hr{
+      width: 100%;
+      height: 100%;
+      background-color: #494949;
+  }
+  .f-last{
+      padding: 50px 0;
+      text-align: center;
+      letter-spacing: 2px;
+      background: #252525;
+  }
+  
+  /* footer ends */
+  }
+  /* small screen device ends */
+  
