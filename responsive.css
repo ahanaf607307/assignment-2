@@ -395,6 +395,63 @@
       font-weight: 800;
   }
   /* team section ends */
+
+  /* product section start */
+#product{
+  padding: 20px;
+}
+#product .product-cards{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+#product h1{
+ font-size: 50px;
+ color: white;
+ margin-bottom: 40px;
+}
+
+#product .card{
+  width: 100%;
+ margin-bottom: 20px;
+}
+
+#product .card img{
+  width:150px;
+  
+}
+#product .card p{
+font-size: 15px;
+margin-bottom: 15px;
+ 
+  
+}
+
+#product .card .star{
+margin: 40px 0 10px;
+ 
+  
+}
+#product .card .card-btn{
+  width: 100%;
+}
+#product .card .card-btn button{
+padding: 8px 15px;
+font-size: 13px;
+border: none;
+font-weight: 400;
+ transition: background-color 0.4s;
+ cursor: pointer;
+ border-radius: 20px;
+
+  
+}
+#product .card .card-btn button:hover{
+background-color: #e75318;
+color: white;    
+
+}
+/* product section ends */
   
   /* footer start */
   .main-footer{
