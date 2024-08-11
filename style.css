@@ -488,6 +488,74 @@ cursor: pointer;
 width: 62%;
 }
 /* bmi calculator section ends */
+
+/* product section start */
+#product{
+    padding: 120px;
+    background-color: #e75318;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#product .product-cards{
+   display: flex;
+   
+   justify-content: space-between;
+}
+#product h1{
+   font-size: 50px;
+   color: white;
+   margin-bottom: 40px;
+}
+
+#product .card{
+    width: 24%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+#product .card img{
+    width:150px;
+    
+}
+#product .card p{
+  font-size: 15px;
+  margin-bottom: 15px;
+   
+    
+}
+
+#product .card .star{
+  margin: 40px 0 10px;
+   
+    
+}
+#product .card .card-btn{
+    width: 100%;
+}
+#product .card .card-btn button{
+ padding: 8px 15px;
+ font-size: 13px;
+ border: none;
+ font-weight: 400;
+   transition: background-color 0.4s;
+   cursor: pointer;
+   border-radius: 20px;
+  
+    
+}
+#product .card .card-btn button:hover{
+background-color: #e75318;
+color: white;    
+
+}
+/* product section ends */
 /* footer start */
 .main-footer{
     padding: 60px 190px;
