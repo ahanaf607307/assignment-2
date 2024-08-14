@@ -365,25 +365,25 @@
   }
   
   .team-picture .picture1{
-    
-      background: linear-gradient(0deg, rgba(0, 0, 0, 0.363) , rgba(0, 0, 0, 0.288)100%) , url("../images/trainer1.png");
-  }
   
-  .team-picture .picture2{
-      background: linear-gradient(0deg,rgb(0,0,0,0.388) , rgba(0,0,0,0.288)100%) , url("../images/trainer2.png");
-  }
-  .team-picture .picture3{
-      background: linear-gradient(0deg,rgb(0,0,0,0.388) , rgba(0,0,0,0.288)100%) , url("../images/trainer3.png");
-  }
-  .team-picture .picture4{
-      background: linear-gradient(0deg,rgb(0,0,0,0.388) , rgba(0,0,0,0.288)100%) , url("../images/trainer4.png");
-  }
-  .team-picture .picture5{
-      background: linear-gradient(0deg,rgb(0,0,0,0.388) , rgba(0,0,0,0.288)100%) , url("../images/trainer5.png");
-  }
-  .team-picture .picture6{
-      background: linear-gradient(0deg,rgb(0,0,0,0.388) , rgba(0,0,0,0.288)100%) , url("../images/trainer6.png");
-  }
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.363) , rgba(0, 0, 0, 0.288)100%) , url("./images/trainer1.png");
+}
+
+.team-picture .picture2{
+    background: linear-gradient(0deg,rgb(0,0,0,0.388) , rgba(0,0,0,0.288)100%) , url("./images/trainer2.png");
+}
+.team-picture .picture3{
+    background: linear-gradient(0deg,rgb(0,0,0,0.388) , rgba(0,0,0,0.288)100%) , url("./images/trainer3.png");
+}
+.team-picture .picture4{
+    background: linear-gradient(0deg,rgb(0,0,0,0.388) , rgba(0,0,0,0.288)100%) , url("./images/trainer4.png");
+}
+.team-picture .picture5{
+    background: linear-gradient(0deg,rgb(0,0,0,0.388) , rgba(0,0,0,0.288)100%) , url("./images/trainer5.png");
+}
+.team-picture .picture6{
+    background: linear-gradient(0deg,rgb(0,0,0,0.388) , rgba(0,0,0,0.288)100%) , url("./images/trainer6.png");
+}
   .team-picture .pic {
       position: absolute;
       top: 183px;
